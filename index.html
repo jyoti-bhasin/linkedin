@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechUprise: LinkedIn Optimization Guide</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom styles for the TechUprise watermark */
+        .watermark-overlay {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            opacity: 0.05; /* Very subtle */
+            pointer-events: none; /* Allows clicks to pass through */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .watermark-text {
+            font-size: 8rem; /* Large font size */
+            font-weight: 800; /* Extra bold */
+            color: #93c5fd; /* Light blue color for watermark */
+            transform: rotate(-45deg); /* Rotate for a dynamic look */
+            user-select: none; /* Prevent text selection */
+            background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.05) 0px, rgba(0,0,0,0.05) 10px, transparent 10px, transparent 20px);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 20px 20px;
+        }
+        /* Custom colors for consistency */
+        .text-dark-blue {
+            color: #1a202c; /* A darker shade for headings */
+        }
+    </style>
+</head>
+<body class="antialiased bg-white text-gray-900 min-h-screen flex flex-col relative">
+
+    <!-- Watermark Overlay -->
+    <div class="watermark-overlay">
+        <span class="watermark-text">TechUprise</span>
+    </div>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow container mx-auto px-4 py-8 md:px-8 lg:px-12 relative z-10">
+
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 md:p-12 lg:p-16 rounded-xl shadow-lg mb-12 relative overflow-hidden">
+            <!-- Decorative shapes -->
+            <div class="absolute top-0 left-0 w-32 h-32 bg-purple-500 opacity-20 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+            <div class="absolute bottom-0 right-0 w-48 h-48 bg-blue-500 opacity-20 rounded-full translate-x-1/2 -translate-y-1/2"></div>
+
+            <!-- Product Name -->
+            <p class="text-xl sm:text-2xl lg:text-3xl font-extrabold mb-2 leading-tight">
+                TechUprise: Interview Xpress 30
+            </p>
+            <!-- Tagline -->
+            <p class="text-lg sm:text-xl font-light mb-4 italic">
+                From Profile to Recruiter DMs — All in 30 Days.
+            </p>
+            <!-- Guide Title -->
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">
+                LinkedIn Profile Optimization Guide (2025 Edition)
+            </h1>
+
+            <div class="mt-6 flex flex-col sm:flex-row items-center sm:space-x-4 space-y-4 sm:space-y-0">
+                <img
+                  src="https://placehold.co/150x150/800080/FFFFFF?text=LinkedIn"
+                  alt="LinkedIn Icon"
+                  class="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-md border-4 border-purple-300"
+                  onerror="this.onerror=null; this.src='https://placehold.co/150x150/800080/FFFFFF?text=LinkedIn';"
+                />
+                <p class="text-md sm:text-lg italic font-medium">
+                    Goal: Appear in recruiter searches, build credibility, get more responses & DMs from hiring teams.
+                </p>
+            </div>
+        </section>
+
+        <!-- Profile Picture & Banner -->
+        <section class="bg-blue-50 p-6 md:p-8 rounded-xl shadow-md mb-12 border border-blue-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span class="mr-2 text-purple-600 text-3xl">✅</span> 1. Profile Picture & Banner
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">Profile Picture:</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Clear headshot, smiling, neutral background (avoid selfies).</li>
+                        <li>👉 Use <a href="https://www.pfpmaker.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">pfpmaker.com</a> for quick AI enhancement.</li>
+                    </ul>
+                    <img
+                        src="https://placehold.co/200x200/4F46E5/FFFFFF?text=Professional+Headshot"
+                        alt="Example Professional Headshot"
+                        class="mt-4 mx-auto md:mx-0 rounded-full shadow-md border-4 border-blue-300"
+                        onerror="this.onerror=null; this.src='https://placehold.co/200x200/ADD8E6/00008B?text=Professional+Headshot';"
+                    />
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-2">Banner:</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Use a custom banner (can say: “Actively seeking SDE opportunities” or show your tech stack visually).</li>
+                        <li>👉 Use <a href="https://www.canva.com/linkedin-banner/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Canva LinkedIn Banner templates</a>.</li>
+                    </ul>
+                    <img
+                        src="https://placehold.co/400x100/3B82F6/FFFFFF?text=Actively+Seeking+SDE+Opportunities"
+                        alt="Example Professional LinkedIn Banner"
+                        class="mt-4 mx-auto md:mx-0 rounded-lg shadow-md border-4 border-blue-300"
+                        onerror="this.onerror=null; this.src='https://placehold.co/400x100/ADD8E6/00008B?text=Professional+LinkedIn+Banner';"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <!-- Name + Pronunciation (Optional) -->
+        <section class="bg-purple-50 p-6 md:p-8 rounded-xl shadow-md mb-12 border border-purple-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span class="mr-2 text-pink-600 text-3xl">✅</span> 2. Name + Pronunciation (Optional)
+            </h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <li>No fancy fonts or emojis in name.</li>
+                <li>Add pronunciation if your name is often mispronounced.</li>
+            </ul>
+        </section>
+
+        <!-- Headline -->
+        <section class="bg-white p-6 md:p-8 rounded-xl shadow-md mb-12 border border-gray-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span class="mr-2 text-blue-600 text-3xl">🧠</span> 3. Headline
+            </h2>
+            <p class="text-gray-700 mb-3">Most important field after name — affects search ranking.</p>
+            <h3 class="text-xl font-semibold text-purple-700 mb-2">Formula:</h3>
+            <p class="bg-blue-100 p-3 rounded-md italic text-gray-800 mb-4">
+                Role you want | Skills | Current Status | Value you're bringing
+            </p>
+            <h3 class="text-xl font-semibold text-purple-700 mb-2">Examples:</h3>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li><span class="text-pink-600 text-xl">🚀</span> Aspiring SDE | Python, DSA, MERN Stack | Ex-Intern @Scaler | Open to Opportunities</li>
+                <li><span class="text-pink-600 text-xl">👩‍💻</span> Data Analyst | SQL, Excel, Power BI | Final Year B.Tech | Seeking Internship (Summer 2025)</li>
+            </ul>
+            <p class="text-red-700 mt-4 font-medium">Avoid vague stuff like “Student | Dreamer | Hustler”</p>
+        </section>
+
+        <!-- About Section (Summary) -->
+        <section class="bg-blue-50 p-6 md:p-8 rounded-xl shadow-md mb-12 border border-blue-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span class="mr-2 text-purple-600 text-3xl">👋</span> 4. About Section (Summary)
+            </h2>
+            <p class="text-gray-700 mb-3">Tell your story in 3–4 paragraphs. Use this structure:</p>
+            <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+                <li>Who you are (background, degree, passion)</li>
+                <li>What you’ve done (projects, internships)</li>
+                <li>What roles you’re seeking</li>
+                <li>Something personal/fun (soft touch)</li>
+            </ul>
+            <h3 class="text-xl font-semibold text-purple-700 mb-2">Template:</h3>
+            <div class="bg-white p-4 rounded-md shadow-sm border border-blue-100 italic text-gray-800">
+                <p>Final-year Computer Science student with a strong interest in backend development and scalable systems. I’ve worked on several MERN stack projects and completed internships where I helped automate deployment pipelines and reduced processing time by 30%.</p>
+                <p class="mt-2">I’m actively looking for SDE internships or full-time roles where I can contribute to real-world systems and learn from experienced engineers.</p>
+                <p class="mt-2">Outside of code, I enjoy solving logic puzzles, writing tech blogs, and exploring new AI tools.</p>
+            </div>
+            <p class="text-green-700 mt-4 font-medium">✅ End with email + resume link or portfolio.</p>
+        </section>
+
+        <!-- Featured Section -->
+        <section class="bg-pink-50 p-6 md:p-8 rounded-xl shadow-md mb-12 border border-pink-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span class="mr-2 text-blue-600 text-3xl">✨</span> 5. Featured Section
+            </h2>
+            <p class="text-gray-700 mb-3">Highlight your <strong class="text-purple-700">best work</strong> here. Suggested 3–4 things:</p>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Top project with GitHub link</li>
+                <li>Resume (upload PDF or Google Drive link)</li>
+                <li>Any LinkedIn post that went viral (e.g., project showcase or internship win)</li>
+                <li>Portfolio website (if any)</li>
+            </ul>
+        </section>
+
+        <!-- Experience -->
+        <section class="bg-white p-6 md:p-8 rounded-xl shadow-md mb-12 border border-gray-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span class="mr-2 text-pink-600 text-3xl">💼</span> 6. Experience
+            </h2>
+            <p class="text-gray-700 mb-3">Even if no “job”, still write:</p>
+            <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+                <li>Freelance project work</li>
+                <li>Hackathons</li>
+                <li>Campus ambassador roles</li>
+            </ul>
+            <p class="text-gray-700 font-semibold mb-2">Use bullets and show outcome:</p>
+            <ul class="list-disc list-inside text-gray-700 space-y-1 italic">
+                <li>Built an e-commerce site using React & Firebase with login and cart features</li>
+                <li>Reduced loading time by 40% by optimizing image handling</li>
+            </ul>
+        </section>
+
+        <!-- Education -->
+        <section class="bg-blue-50 p-6 md:p-8 rounded-xl shadow-md mb-12 border border-blue-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span class="mr-2 text-purple-600 text-3xl">📚</span> 7. Education
+            </h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Degree, Institute, Duration</li>
+                <li>Add relevant coursework (e.g., Data Structures, DBMS)</li>
+                <li>Add clubs/positions (e.g., “Technical Lead @ CSI Club”)</li>
+            </ul>
+        </section>
+
+        <!-- Licenses & Certifications -->
+        <section class="bg-pink-50 p-6 md:p-8 rounded-xl shadow-md mb-12 border border-pink-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span class="mr-2 text-blue-600 text-3xl">📜</span> 8. Licenses & Certifications
+            </h2>
+            <p class="text-gray-700 mb-3">Add from:</p>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Coursera</li>
+                <li>Great Learning</li>
+                <li>Udemy (if project-worthy)</li>
+                <li>Google Career Certificates</li>
+            </ul>
+            <p class="text-red-700 mt-4 font-medium">⚠️ Avoid adding too many. Only what supports your goal.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="bg-white p-6 md:p-8 rounded-xl shadow-md mb-12 border border-gray-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span class="mr-2 text-pink-600 text-3xl">🛠️</span> 9. Skills Section
+            </h2>
+            <p class="text-green-700 font-medium mb-3">✅ Add <strong class="text-blue-800">up to 50 skills</strong> — this boosts visibility massively.</p>
+            <p class="text-gray-700 mb-2">Put top 3 as:</p>
+            <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <li>Programming Language (e.g., Python)</li>
+                <li>Role-specific (e.g., Frontend Development)</li>
+                <li>Tool (e.g., Git, React, Excel)</li>
+            </ul>
+        </section>
+
+        <!-- Recommendations (Optional but Gold) -->
+        <section class="bg-blue-50 p-6 md:p-8 rounded-xl shadow-md mb-12 border border-blue-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span class="mr-2 text-purple-600 text-3xl">⭐</span> 10. Recommendations (Optional but Gold)
+            </h2>
+            <p class="text-gray-700 mb-3">Request from:</p>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Intern manager</li>
+                <li>Hackathon teammate</li>
+                <li>Faculty who saw your project</li>
+            </ul>
+            <p class="text-gray-700 mt-3 italic">Send a polite request message with context.</p>
+        </section>
+
+        <!-- Activity & Engagement (Power Move!) -->
+        <section class="bg-pink-50 p-6 md:p-8 rounded-xl shadow-md mb-12 border border-pink-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span class="mr-2 text-blue-600 text-3xl">⚡</span> 11. Activity & Engagement (Power Move!)
+            </h2>
+            <p class="text-gray-700 mb-3">LinkedIn rewards creators. Post once per week or comment on others’ posts to increase your profile views.</p>
+            <h3 class="text-xl font-semibold text-purple-700 mb-2">Post Ideas:</h3>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Project breakdowns</li>
+                <li>Learnings from internship</li>
+                <li>Resume building tips</li>
+                <li>Screenshots of recruiter responses</li>
+            </ul>
+        </section>
+
+        <!-- Custom URL + Contact Info -->
+        <section class="bg-white p-6 md:p-8 rounded-xl shadow-md mb-12 border border-gray-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span class="mr-2 text-pink-600 text-3xl">🔗</span> 12. Custom URL + Contact Info
+            </h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Edit your URL: <strong class="text-blue-800">linkedin.com/in/yourname</strong></li>
+                <li>Add your <strong class="text-blue-800">email</strong> under "Contact Info"</li>
+                <li>Add GitHub or portfolio link</li>
+            </ul>
+        </section>
+
+        <!-- Bonus: Free Tools -->
+        <section class="bg-purple-50 p-6 md:p-8 rounded-xl shadow-md mb-12 border border-purple-200">
+            <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 mb-4 flex items-center">
+                <span class="mr-2 text-blue-600 text-3xl">🎁</span> Bonus: Free Tools
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+                <div class="bg-white p-5 rounded-lg shadow-sm border border-purple-100 flex flex-col items-center">
+                    <img
+                        src="https://placehold.co/80x80/E0BBE4/800080?text=Canva"
+                        alt="Canva Logo"
+                        class="w-20 h-20 rounded-full mb-3"
+                        onerror="this.onerror=null; this.src='https://placehold.co/80x80/E0BBE4/800080?text=Canva';"
+                    />
+                    <h3 class="text-xl font-semibold text-purple-700 mb-2">Canva</h3>
+                    <p class="text-gray-700">LinkedIn Banner Maker</p>
+                    <a href="https://www.canva.com/linkedin-banner/" target="_blank" rel="noopener noreferrer" class="mt-3 text-blue-600 hover:underline flex items-center">
+                        Visit Site <span class="ml-1 text-base">🔗</span>
+                    </a>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow-sm border border-purple-100 flex flex-col items-center">
+                    <img
+                        src="https://placehold.co/80x80/E0BBE4/800080?text=Teal"
+                        alt="Teal Logo"
+                        class="w-20 h-20 rounded-full mb-3"
+                        onerror="this.onerror=null; this.src='https://placehold.co/80x80/E0BBE4/800080?text=Teal';"
+                    />
+                    <h3 class="text-xl font-semibold text-purple-700 mb-2">Teal</h3>
+                    <p class="text-gray-700">Headline Generator</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="mt-3 text-blue-600 hover:underline flex items-center">
+                        Visit Site <span class="ml-1 text-base">🔗</span>
+                    </a>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow-sm border border-purple-100 flex flex-col items-center">
+                    <img
+                        src="https://placehold.co/80x80/E0BBE4/800080?text=ResumeWorded"
+                        alt="Resumeworded Logo"
+                        class="w-20 h-20 rounded-full mb-3"
+                        onerror="this.onerror=null; this.src='https://placehold.co/80x80/E0BBE4/800080?text=ResumeWorded';"
+                    />
+                    <h3 class="text-xl font-semibold text-purple-700 mb-2">Resumeworded</h3>
+                    <p class="text-gray-700">LinkedIn Profile Score</p>
+                    <a href="https://resumeworded.com/linkedin-review/" target="_blank" rel="noopener noreferrer" class="mt-3 text-blue-600 hover:underline flex items-center">
+                        Visit Site <span class="ml-1 text-base">🔗</span>
+                    </a>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow-sm border border-purple-100 flex flex-col items-center">
+                    <img
+                        src="https://placehold.co/80x80/E0BBE4/800080?text=Taplio"
+                        alt="Taplio Logo"
+                        class="w-20 h-20 rounded-full mb-3"
+                        onerror="this.onerror=null; this.src='https://placehold.co/80x80/E0BBE4/800080?text=Taplio';"
+                    />
+                    <h3 class="text-xl font-semibold text-purple-700 mb-2">Taplio</h3>
+                    <p class="text-gray-700">Automated LinkedIn Reviews</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="mt-3 text-blue-600 hover:underline flex items-center">
+                        Visit Site <span class="ml-1 text-base">🔗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dummy User ID Section (Not relevant for static HTML, but retained for consistency) -->
+        <div class="text-xs text-gray-500 text-center mt-12 p-2 bg-gray-100 rounded-md">
+            User ID: guide-viewer-id (This ID is for collaborative features and may vary across sessions)
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white p-4 text-center text-sm mt-8 shadow-inner">
+        &copy; <span id="current-year"></span> TechUprise LinkedIn Guide
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set dynamic copyright year in footer
+            const currentYearSpan = document.getElementById('current-year');
+            if (currentYearSpan) {
+                currentYearSpan.textContent = new Date().getFullYear();
+            } else {
+                console.error("Element with ID 'current-year' not found in footer. Cannot set copyright year.");
+            }
+        });
+    </script>
+</body>
+</html>
